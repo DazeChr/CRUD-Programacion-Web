@@ -1,0 +1,227 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: #222528 !important;
+}
+
+.texto-echo{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-right: 10px;
+}
+
+.texto-echo-busqueda{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-left: 35px;
+}
+
+.texto-echo-borrado{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-left: 30px;
+}
+
+.texto-echo-edicion{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-left: 40px;
+}
+
+.texto-echo-califinv{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-left: 10px;
+}
+
+
+
+.Site{
+    display: flex;
+    min-height: 99vh;
+    flex-direction: column;
+}
+
+.Site-content{
+    flex: 1;
+}
+
+/*---barra de Navegación ---*/
+.navbar {
+  background-color: #068fff;
+}
+
+.navbar-default-submenu{
+    height: 72px;
+}
+
+.ml-2-title {
+    margin-left: 10px;
+    color: white;
+}
+
+.mx-auto-subtitle{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+.mx-auto-lista1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.lista1 li{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.lista2 li{
+    display: block;
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    border: 3px #068fff solid;
+}
+
+.filtro-nav-btn{
+    margin-right: 10px;
+    height: 55px;
+}
+
+.volver-nav-btn{
+    margin-left: 10px;
+    height: 55px;
+}
+
+.input-btn{
+    border-radius: 5px;
+    border: 3px #068fff solid;
+    margin-right: 10px;
+}
+
+.input-btn-insert{
+    border-radius: 5px;
+    border: 3px #068fff solid;
+    margin-top: 20px;
+}
+
+.input-btn-select{
+    border-radius: 5px;
+    border: 3px #068fff solid;
+    margin-top: 20px;
+}
+
+.input-btn-filtro{
+    border-radius: 5px;
+    border: 3px #068fff solid;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.input-btn-editbusqueda{
+    border-radius: 5px;
+    border: 3px #068fff solid;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.pie-pagina{
+    margin-left: 10px;
+    color: white;
+}
+
+.table-margin{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.table-dark{
+    border: 1px white solid !important;
+}
+
+.input-text{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.input-text-busqueda{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-right: 10px;
+}
+
+.input-text-editnom{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-bottom: 2px;
+}
+
+.input-text-editedad{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-right: 34px;
+    margin-bottom: 2px;
+}
+
+.input-text-editcalif{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-right: 1px;
+}
+
+.input-tb{
+    margin-left: 10px !important;
+}
+
+.input-tb-nom{
+    margin-left: 50px !important;
+}
+
+.input-tb-edad{
+    margin-left: 50px !important;
+}
+
+.input-tb-calif{
+    margin-left: 18px !important;
+}
+
+.input-tb-busqueda{
+    margin-right: 30px !important;
+}
